@@ -8,6 +8,6 @@ Para rodar a aplicação basta abrir o terminal dentro do diretório principal d
 > 'docker run -e SV_RESOURCE_LOCATION= /application/img/ -p 8000:8080 printsaver-app'
 
 ## To-do:
-- [X] Hostear a aplicação.
+- [X] ~Hostear a aplicação.~
 - [ ] Implementar uma task de limpeza a cada hora.
 - [ ] Implementar uma interface para o usuário.
