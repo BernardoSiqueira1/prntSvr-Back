@@ -1,10 +1,7 @@
-## Descrição:
-> Um microsserviço simples construído em springboot com o objetivo de salvar e servir conteúdo estático.
+## Sobre o projeto:
+Se trata de um simples microsserviço, construído em SpringBoot, com o objetivo de guardar e servir mídias.
 
-## Rodando a aplicação:
-* Abra o terminal
-  
-* Monte a imagem docker com: 'docker build printsaver-app .'
-
-* Rode a imagem com: 'docker run -e SV_RESOURCE_LOCATION= /application/img/ -p 8000:8080 printsaver-app'
-
+## Setup
+Para rodar a aplicação basta abrir o terminal dentro do diretório da aplicação e digitar:
+> 'docker build printsaver-app .'
+> 'docker run -e SV_RESOURCE_LOCATION= /application/img/ -p 8000:8080 printsaver-app'
